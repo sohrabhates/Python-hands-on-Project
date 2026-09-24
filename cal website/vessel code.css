@@ -1,0 +1,151 @@
+/* ===============================
+   GLOBAL TYPOGRAPHY & FEEL
+================================ */
+body {
+  letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ===============================
+   PRODUCT PAGE LAYOUT
+================================ */
+
+/* Wider, editorial layout */
+.product {
+  max-width: 1500px;
+  margin: auto;
+}
+
+/* Reduce clutter spacing */
+.product__info-container {
+  padding-top: 24px;
+}
+
+/* ===============================
+   PRODUCT TITLE
+================================ */
+.product__title {
+  font-size: 22px;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+/* ===============================
+   PRICE
+================================ */
+.price {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+/* ===============================
+   VARIANT PILLS (SIZES)
+================================ */
+.product-form__input input[type="radio"] + label {
+  border-radius: 0;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: transparent;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  padding: 14px 18px;
+}
+
+.product-form__input input[type="radio"]:checked + label {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+/* ===============================
+   ADD TO CART BUTTON
+================================ */
+.product-form__submit {
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 13px;
+  padding: 18px;
+  background: #ffffff;
+  color: #000000;
+}
+
+.product-form__submit:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* ===============================
+   BUY NOW BUTTON
+================================ */
+.shopify-payment-button__button {
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background: #111111 !important;
+}
+
+/* ===============================
+   ICON INFO ROW
+================================ */
+.product__accordion,
+.product__description {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+}
+
+/* ===============================
+   ACCORDIONS (DESCRIPTION / SHIPPING)
+================================ */
+.accordion {
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+.accordion summary {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+}
+
+/* ===============================
+   PRODUCT IMAGES
+================================ */
+.product__media img {
+  border-radius: 0;
+}
+
+/* ===============================
+   CART DRAWER (HOLYHEADEN STYLE)
+================================ */
+.drawer {
+  background: #0a0a0a;
+}
+
+.drawer__heading {
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.cart-item__name {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+
+.quantity__button {
+  border-radius: 0;
+}
+
+/* ===============================
+   REMOVE ROUNDNESS EVERYWHERE
+================================ */
+button,
+input,
+select {
+  border-radius: 0 !important;
+}
